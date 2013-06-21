@@ -1,0 +1,18 @@
+{
+  "name": "Ignite Debugger",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "js": [
+      "jquery-1.10.1.min.js",
+      "jquery-ui.min.js",
+      "jquery.cookie.js",
+      "ignite.user.js"
+    ],
+    "matches": [
+      "https://ignite.avvo.com/*",
+      "http://onni-master.jakotako.com/*"
+    ],
+    "run_at": "document_end"
+  }]
+}
