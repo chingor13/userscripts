@@ -1,5 +1,5 @@
 {
-  "name": "Ignite Debugger",
+  "name": "Avvo Debug Info",
   "version": "1.0.2",
   "manifest_version": 2,
   "content_scripts": [{
