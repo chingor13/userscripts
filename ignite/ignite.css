@@ -5,6 +5,26 @@
   height: 30px;
   width: 100%;
   background: #999;
+  padding: 0 8px;
+}
+
+#debug-info dl {
+  margin: 0;
+}
+
+#debug-info dt,
+#debug-info dd {
+  display: inline-block;
+  margin: 0 4px 0 0;
+  float: left;
+  clear: none;
+  width: auto;
+  padding: 0;
+  line-height: 30px;
+}
+
+#debug-info dt {
+  font-weight: bold;
 }
 
 body {
