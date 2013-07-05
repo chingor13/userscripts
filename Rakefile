@@ -9,7 +9,7 @@ desc 'build extension'
 task :build => :environment do
   key = ENV['KEY'] || "key.pem"
 
-  command = "rm #{$project}.crx"
+  command = "if [ -f #{$project}.crx ]; then rm #{$project}.crx; fi"
   puts command
   `#{command}`
 
