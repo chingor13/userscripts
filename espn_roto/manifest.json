@@ -1,7 +1,7 @@
 {
   "name": "ESPN Fantasy Baseball Roto Calculator",
   "description": "Calculates Roto Standings for a H2H League",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "content_scripts": [{
     "js": [
@@ -12,8 +12,12 @@
       "espn.css"
     ],
     "matches": [
-      "http://games.espn.go.com/flb/standings*"
+      "http://games.espn.go.com/flb/standings*",
+      "http://games.espn.com/flb/standings*"
     ],
     "run_at": "document_end"
-  }]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
 }

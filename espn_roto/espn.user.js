@@ -1,5 +1,4 @@
 $(function(){
-
   function calculatePoints(sortedValues) {
     var current = 0,
       ties = 0,
@@ -104,7 +103,7 @@ console.log(rawData);
   });
 
   table.insertAfter("#statsTable");
-  
+
   // for each stat column
   //console.log(rawData);
 });
